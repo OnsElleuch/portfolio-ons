@@ -21,7 +21,12 @@
     "@angular/router": "~11.0.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "jquery": "^3.4.1",
+    "jquery-circle-progress": "^1.2.2",
+    "jquery.easing": "^1.4.1",
+    "typed.js": "^2.0.10",
+    "uikit": "^3.1.7"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1100.2",
@@ -40,6 +45,17 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.0.2"
+    "typescript": "~4.0.2",
+    "browser-sync": "^2.24.7",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-file-include": "^2.0.1",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.2"
   }
 }
