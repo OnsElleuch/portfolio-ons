@@ -163,9 +163,9 @@
         var params = $el.serialize();
 
         init_btn_loading($btn, true);
-
         
-        $.post("src/php/sendmail.php", params, function(data) {
+        
+        $.post('sendmail.php', params, function(data) {
           var dt = JSON.parse(data);
           if (dt.status == "error") {
             var alert = init_alert(
@@ -193,6 +193,7 @@
           });
           $alert_wrap.html(alert);
           init_btn_loading($btn, false);
+        console.log("here");
         });
 
         return false;
