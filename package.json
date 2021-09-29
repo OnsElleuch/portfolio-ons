@@ -24,6 +24,8 @@
     "jquery-circle-progress": "^1.2.2",
     "jquery.easing": "^1.4.1",
     "rxjs": "~6.6.0",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
     "tslib": "^2.0.0",
     "typed.js": "^2.0.10",
     "uikit": "^3.1.7",
